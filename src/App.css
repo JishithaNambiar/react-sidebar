@@ -20,13 +20,14 @@
 
 h1 {
   text-align:center;
-  font-size: 19px;
+  font-size: 26px;
   font-weight: 100px;
   padding-bottom: 30px;
   line-height: 1.2;
   letter-spacing: 1px;
   display: inline-block;
-  max-width: 100%
+  max-width: 100%;
+  box-sizing: inherit;
 }
 
 h4 {
@@ -52,8 +53,62 @@ h4 {
   text-align: center;
 }
 
-
 svg {
   font-size: 20px;
   text-align: center;
+  margin-top: 20px;
+}
+
+/*About*/
+
+.card-header {
+  margin-top: 70px;
+}
+
+.card-title {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.25;
+  max-width: 100%;
+  margin-top: 24px;
+  margin-left: 24px;
+  font-weight: 400;
+  color: rgb(27, 27, 27);
+  overflow-wrap: break-word;
+  font-family: 'Poppins', arial, sans-serif;
+  text-transform: none;
+  box-sizing: inherit;
+  text-align: left;
+  margin-left: 24px;
+}
+
+.text-muted {
+  box-sizing: inherit;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+  line-height: 1.8;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  font-family: 'Poppins', arial, sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 10px;
+}
+
+h3 {
+  font-size:22px;
+  line-height: 1.25;
+  margin-bottom: 40px;
+  font-weight: 400;
+  margin-right: 0;
+  text-align: center;
+  color: rgb(27, 27, 27);
+  overflow-wrap: break-word;
+  margin-top: 50px;
+  font-family: 'Poppins', arial, sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  box-sizing: inherit;
+
 }
