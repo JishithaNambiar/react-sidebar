@@ -19,9 +19,10 @@
 }
 
 h1 {
-  text-align:center;
+  text-align: top;
   font-size: 26px;
   font-weight: 100px;
+  margin-bottom: 40px;
   padding-bottom: 40px;
   line-height: 1.8;
   letter-spacing: 1px;
@@ -70,7 +71,6 @@ svg {
   margin-left: 24px;
   font-weight: 400;
   color: rgb(27, 27, 27);
-  overflow-wrap: break-word;
   font-family: 'Poppins', arial, sans-serif;
   text-transform: none;
   box-sizing: inherit;
