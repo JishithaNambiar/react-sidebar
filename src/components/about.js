@@ -7,11 +7,13 @@ const About = () => {
   return (
     <div>
       <Header />
-      {/* <h2>BECAUSE IT STILL TAKES A VILLAGE</h2> */}
+      {/* <h2>BECAUSE IT STILL TAKES A VILLAGE:</h2> */}
       <div className="card text-centre">
-        <div className="card-header">BECAUSE IT STILL TAKES A VILLAGE</div>
+        <div className="card-header">BECAUSE IT STILL TAKES A VILLAGE:</div>
         <div className="card-body">
           <h5 className="card-title">What is Drea Day?</h5>
+          
+          
           <span className="text-muted">
             On May 6th, Dreasjon "Sean" Reed was murdered by IMPD Officer
             De'Joure Mercer while he was streaming live via Facebook. Multiple
@@ -24,7 +26,6 @@ const About = () => {
           </span>
         </div>
       </div>
-
       <h3>Our Partners</h3>
       <Footer />
     </div>
