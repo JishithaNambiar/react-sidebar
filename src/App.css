@@ -19,7 +19,7 @@
 }
 
 h1 {
-  text-align: top;
+  text-align: center;
   font-size: 26px;
   font-weight: 100px;
   margin-bottom: 40px;
@@ -63,19 +63,15 @@ svg {
 /*About*/
 
 .card-title {
-  margin-bottom: 70px;
   font-size: 18px;
   line-height: 1.25;
   max-width: 100%;
-  margin-top: 24px;
-  margin-left: 24px;
   font-weight: 400;
   color: rgb(27, 27, 27);
   font-family: 'Poppins', arial, sans-serif;
   text-transform: none;
   box-sizing: inherit;
   text-align: left;
-  margin-left: 24px;
 }
 
 .card-header {
@@ -96,6 +92,7 @@ svg {
 .text-muted {
   box-sizing: inherit;
   font-size: 16px;
+  width: 625px;
   color: rgb(94, 94, 94);
   line-height: 1.8;
   font-weight: 400;
@@ -104,9 +101,6 @@ svg {
   text-transform: none;
   letter-spacing: normal;
   text-align: left;
-  margin-left: 120px;
-  margin-top: 0px;
-  margin-right: 120px;
 }
 
 
@@ -142,4 +136,8 @@ h3 {
   line-height: normal;
   position: static;
   z-index: auto;
+}
+
+.navbar {
+  width: 200px;
 }
