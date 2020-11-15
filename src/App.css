@@ -145,18 +145,40 @@ h3 {
 }
 
 .container1 img {
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-bottom: 3%;
   display: inline;
   width: auto;
   box-sizing: inherit;
 }
 
 .container2 img {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
   display: inline;
   width: auto;
   box-sizing: inherit;
+  margin-bottom: 3%;
 }
+
+.container4 img {
+  margin-bottom: 3%;
+}
+
+.lower-title {
+  text-align: left;
+  color: rgb(89, 89, 89);
+  font-family: 'Poppins';
+  font-weight: 400;
+  margin-left: 8%;
+}
+
+.span1 {
+  text-align: right;
+  color: rgb(89, 89, 89);
+  font-family: 'Poppins';
+  font-weight: 400;
+  margin-right: 8%;
+}
+

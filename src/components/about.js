@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "./header";
-import Footer from "./footer";
 import edele from './fixed logo example.png';
 import img6278 from './IMG_6278.jpg';
 import heat from './9082575_heart (2).png';
@@ -11,6 +10,7 @@ import smoosh from './Screenshot_20201003-231223_Instagram.jpg';
 import credit from './crs - 1.png';
 import crown from './CROWNBLACK2.png';
 import amelia from './Screenshot_20201008-002034_Drive.jpg';
+import drea from './Dreaday1.jpg';
 
 const About = () => {
   return (
@@ -37,24 +37,37 @@ const About = () => {
       </div>
       <h3>Our Partners</h3>
       <div className="container1">
-        <img src={edele} alt="Edele image" height={80} width={80} />
-        <img src={img6278} alt="6278 image" height={80} width={80} />
-        <img src={heat} alt="Heat image" height={80} width={80} />
-        <img src={mary} alt="Mary image" height={80} width={80} />
-        <img src={face} alt="Face image" height={80} width={80} />
+        <img src={edele} alt="Edele img" height={100} width={100} />
+        <img src={img6278} alt="6278 img" height={100} width={100} />
+        <img src={heat} alt="Heat img" height={100} width={100} />
+        <img src={mary} alt="Mary img" height={100} width={100} />
+        <img src={face} alt="Face img" height={100} width={100} />
       </div>
 
       <div className="container2">
-        <img src={cc} alt="Cc image" height={80} width={80} />
-        <img src={smoosh} alt="Smoosh image" height={80} width={80} />
-        <img src={credit} alt="Credit image" height={80} width={80} />
-        <img src={crown} alt="Crown image" height={80} width={80} />
-        <img src={amelia} alt="Amelia image" height={80} width={80} />
+        <img src={cc} alt="Cc img" height={100} width={100} />
+        <img src={smoosh} alt="Smoosh img" height={100} width={100} />
+        <img src={credit} alt="Credit img" height={100} width={100} />
+        <img src={crown} alt="Crown img" height={100} width={100} />
+        <img src={amelia} alt="Amelia img" height={100} width={100} />
 
       </div>
       
+      <div className="container4">
+        <img src={drea} alt="Drea img" height={346.11} width={1112.02} />
+  
+      </div>
+
+      <div className="lower-title">
+        <span>
+          Drea Day
+        </span>
+
+        <span>
+          Powered by Envisione Designs
+        </span>
+      </div>
       
-      <Footer />
     </div>
   );
 };
