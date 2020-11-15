@@ -13,7 +13,7 @@ class Home extends Component {
           {/* <h1>DreaDay</h1> */}
 
           <div className="classContainer">
-            <img src={logo1} className="container" alt="" />
+            <img src={logo1} className="container text-center" alt="" />
           </div>
          
 

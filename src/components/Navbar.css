@@ -13,8 +13,8 @@
 }
 
 .nav-menu {
-  background-color: White;
-  width: 250px;
+  background-color:#F6F6F6;
+  width: 400px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -68,5 +68,5 @@
 }
 
 span {
-  margin-left: 10px;
+  margin-left: 50px;
 }

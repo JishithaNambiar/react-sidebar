@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "./header";
 import Footer from "./footer";
-import Button from "./button";
 
 const About = () => {
   return (
@@ -11,7 +10,7 @@ const About = () => {
       <div className="card text-centre">
         <div className="card-header">BECAUSE IT STILL TAKES A VILLAGE:</div>
         <div className="card-body">
-          <h5 className="card-title">What is Drea Day?</h5>
+          <h5 className="card-title mt-5">What is Drea Day?</h5>
           
           
           <span className="text-muted">
