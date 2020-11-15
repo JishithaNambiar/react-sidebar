@@ -65,13 +65,14 @@ svg {
 .card-title {
   font-size: 18px;
   line-height: 1.25;
-  max-width: 100%;
   font-weight: 400;
   color: rgb(27, 27, 27);
   font-family: 'Poppins', arial, sans-serif;
   text-transform: none;
   box-sizing: inherit;
   text-align: left;
+  margin-left: 30%;
+  margin-bottom: 2%;
 }
 
 .card-header {
@@ -101,6 +102,7 @@ svg {
   text-transform: none;
   letter-spacing: normal;
   text-align: left;
+  margin-left: 30%;
 }
 
 
@@ -140,4 +142,21 @@ h3 {
 
 .navbar {
   width: 200px;
+}
+
+.container1 img {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+  display: inline;
+  width: auto;
+  box-sizing: inherit;
+}
+
+.container2 img {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline;
+  width: auto;
+  box-sizing: inherit;
 }
