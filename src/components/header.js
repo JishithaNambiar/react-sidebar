@@ -4,7 +4,7 @@ class  Header extends Component {
   render () {
       return (
           <div>
-          <nav className="navbar navbar-default">
+          
               <div className="container">
                  <div className="nvbar-header">
                      <ul className="nav navbar-nav">
@@ -12,7 +12,7 @@ class  Header extends Component {
                      </ul>
                  </div>
               </div>
-          </nav>
+          
            <h1>DREA DAY</h1>
           </div>
         );
