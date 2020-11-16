@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from './button.js'
 import Header from "./header";
 import edele from './fixed logo example.png';
 import img6278 from './IMG_6278.jpg';
@@ -33,10 +34,12 @@ const About = () => {
           </span>
         </div>
         <div>
-        <button type="button" onClick={(e) => { e.preventDefault();
-        window.location.href='https://www.gofundme.com/f/justice-for-dreasjon-sean-reed?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all';
-        }}
-        > DONATE NOW</button>
+        <button
+          type="button"
+          className="btn btn-info"
+          >
+          DONATE NOW
+        </button>
       </div>
       </div>
       <h3>Our Partners</h3>
