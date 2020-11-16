@@ -314,8 +314,9 @@ img.container.text-center {
   max-width: 100%;
 }
 
-div.card.text-center {
-  position: inherit;
-
+button {
+  color: white;
+  font-size: 26px;
+  background-color: rgb(51, 176, 207);
 }
 

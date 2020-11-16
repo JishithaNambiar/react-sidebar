@@ -31,8 +31,13 @@ const About = () => {
             the 6th of every month, 10% of our partners' sales will be donated
             to Dreasjon Reed's GoFundMe.
           </span>
-        
         </div>
+        <div>
+        <button type="button" onClick={(e) => { e.preventDefault();
+        window.location.href='https://www.gofundme.com/f/justice-for-dreasjon-sean-reed?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all';
+        }}
+        > DONATE NOW</button>
+      </div>
       </div>
       <h3>Our Partners</h3>
       <div className="container1">

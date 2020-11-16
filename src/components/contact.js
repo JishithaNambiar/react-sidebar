@@ -157,7 +157,6 @@ class Contact extends Component {
               <a
                 style={{ alignContent: "center" }}
                 href="https://www.gofundme.com/f/justice-for-dreasjon-sean-reed?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all"
-                target="_blank"
               >
                 {" "}
                 &nbsp;Dreasjon Reed's GoFundMe page

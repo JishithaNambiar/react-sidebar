@@ -17,7 +17,7 @@ class Home extends Component {
          
 
             <h4>Dreasjon Reed</h4>
-            <Button buttonText = 'SHOW YOUR SUPPORT'/>
+            <Button buttonText = 'SHOW YOUR SUPPORT' />
 
            
         
