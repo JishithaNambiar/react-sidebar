@@ -37,19 +37,39 @@ const About = () => {
       </div>
       <h3>Our Partners</h3>
       <div className="container1">
+      <a href="https://edelenyc.com/">
         <img src={edele} alt="Edele img" height={100} width={100} />
+      </a>
+      <a href="https://www.etsy.com/shop/AmericasStepdaddy">
         <img src={img6278} alt="6278 img" height={100} width={100} />
+      </a>
+      <a href="https://www.uncommongoods.com/product/sweet-and-savory-hot-sauce-duo">
         <img src={heat} alt="Heat img" height={100} width={100} />
+      </a>
+      <a href="https://www.marykay.com/ERivers">
         <img src={mary} alt="Mary img" height={100} width={100} />
+      </a>
+      <a href="https://www.instagram.com/wowbeauty317/">
         <img src={face} alt="Face img" height={100} width={100} />
+      </a>
       </div>
 
       <div className="container2">
+      <a href="https://www.instagram.com/culicovers/">
         <img src={cc} alt="Cc img" height={100} width={100} />
+      </a>
+      <a href="https://www.amazon.com/dp/B01BA5NFAU/ref=cm_sw_r_cp_awdb_btf_t1_pStEFbEMCARYM">
         <img src={smoosh} alt="Smoosh img" height={100} width={100} />
+      </a>
+      <a href="https://www.financialeducationservices.com/default.aspx?rid=ERivers3">
         <img src={credit} alt="Credit img" height={100} width={100} />
+      </a>
+      <a href="https://livefreedombrand.com/">
         <img src={crown} alt="Crown img" height={100} width={100} />
+      </a>
+      <a href="https://ameliasbread.com/">
         <img src={amelia} alt="Amelia img" height={100} width={100} />
+      </a>
 
       </div>
       
