@@ -77,7 +77,6 @@ const About = () => {
 
       </div>
       
-          Powered by Envisione Designs
     </div>
   );
 };
