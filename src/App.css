@@ -71,6 +71,7 @@ svg {
   text-transform: none;
   box-sizing: inherit;
   text-align: left;
+  margin-top: 2%;
   margin-left: 30%;
   margin-bottom: 2%;
 }
@@ -182,3 +183,132 @@ h3 {
   margin-right: 8%;
 }
 
+/* Contact CSS */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+classContainer {
+  text-align: center;
+}
+
+container {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+}
+
+containerleft {
+  text-align: left;
+}
+containerLeft {
+  text-align: left;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Adamina";
+  padding-top: 2px;
+  padding-bottom: 3%;
+
+}
+
+h4 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+h2 {
+  text-align: center;
+  font-family: Haettenschweiler, "Arial Narrow";
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* footer {
+  display: inline-block;
+  margin-top: 7%;
+  text-align: left;
+  padding-left: 2%;
+  height: 500px;
+} */
+
+rightdiv {
+  text-align: right;
+}
+secondfooter {
+  display: inline-block;
+  margin-top: 20%;
+  text-align: right;
+  padding-left: 2%;
+  height: 500px;
+}
+
+footer {
+  position: fixed;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  display: inline-block;
+  margin-top: 20px;
+  left: 0;
+  bottom: 100;
+  width: 100%;
+  background-color: floralwhite;
+  color: black;
+  text-align: center;
+}
+
+cardbody {
+  width: 50%;
+}
+
+.Button{
+  height:40px; 
+  width:100px; 
+  margin: -20px -50px; 
+  position:relative;
+  top:50%; 
+  left:46%;
+} 
+
+
+/* centralize{
+  text-align:center;
+  display:block;
+  height:40px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:46%;
+}
+
+centreAlign{
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+} */
+
+img.container.text-center {
+  max-width: 100%;
+}

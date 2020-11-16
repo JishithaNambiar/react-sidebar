@@ -11,6 +11,7 @@ import credit from './crs - 1.png';
 import crown from './CROWNBLACK2.png';
 import amelia from './Screenshot_20201008-002034_Drive.jpg';
 import drea from './Dreaday1.jpg';
+import toolate from './Too Late - Cover - Sized.png';
 
 const About = () => {
   return (
@@ -70,24 +71,13 @@ const About = () => {
       <a href="https://ameliasbread.com/">
         <img src={amelia} alt="Amelia img" height={100} width={100} />
       </a>
+      <a href="https://music.apple.com/us/album/too-late-single/1540121306?ls">
+        <img src={toolate} alt="Toolate img" height={100} width={100} />
+      </a>
 
       </div>
       
-      <div className="container4">
-        <img src={drea} alt="Drea img" height={346.11} width={1112.02} />
-  
-      </div>
-
-      <div className="lower-title">
-        <span>
-          Drea Day
-        </span>
-
-        <span>
           Powered by Envisione Designs
-        </span>
-      </div>
-      
     </div>
   );
 };

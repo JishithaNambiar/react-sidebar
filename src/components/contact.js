@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "./header";
-import Footer from "./footer";
 import * as emailjs from "emailjs-com";
 import Button from "./button";
 
@@ -80,7 +79,7 @@ class Contact extends Component {
           </h5>
           <br />
           <h5 className="text-center" style={{ fontFamily: "Adamina" }}>
-            Need more information?Leave us a message.
+            Need more information? Leave us a message.
           </h5>
           <br />
           <form>
@@ -167,7 +166,7 @@ class Contact extends Component {
           </form>
           <br />
           <div className="centralize">
-            <Footer />
+        
           </div>
           {/*  </div>
           </div> */}
