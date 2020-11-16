@@ -10,16 +10,14 @@ import smoosh from './Screenshot_20201003-231223_Instagram.jpg';
 import credit from './crs - 1.png';
 import crown from './CROWNBLACK2.png';
 import amelia from './Screenshot_20201008-002034_Drive.jpg';
-import drea from './Dreaday1.jpg';
 import toolate from './Too Late - Cover - Sized.png';
 
 const About = () => {
   return (
     <div>
       <Header />
-      {/* <h2>BECAUSE IT STILL TAKES A VILLAGE:</h2> */}
       <div className="card text-centre">
-        <div className="card-header">BECAUSE IT STILL TAKES A VILLAGE:</div>
+        <h6>BECAUSE IT STILL TAKES A VILLAGE:</h6>
         <div className="card-title">What is Drea Day?</div>
           <div className="card-body">
           

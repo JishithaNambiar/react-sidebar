@@ -76,11 +76,11 @@ svg {
   margin-bottom: 2%;
 }
 
-.card-header {
+h6 {
   margin-top: 10px;
   margin-bottom: 50px;
   box-sizing: inherit;
-  font-size: 19px;
+  font-size: 26px;
   line-height: 1.4;
   font-weight: 400;
   font-family: 'Adamina', serif;
