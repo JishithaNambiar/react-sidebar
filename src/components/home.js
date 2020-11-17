@@ -17,7 +17,12 @@ class Home extends Component {
          
 
             <h4>Dreasjon Reed</h4>
-            <Button buttonText = 'SHOW YOUR SUPPORT' />
+
+            <div>
+              <a href="https://www.gofundme.com/f/justice-for-dreasjon-sean-reed?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all" class="btn btn-info" role="button">SHOW YOUR SUPPPORT</a>
+            </div>
+            
+
 
            
         

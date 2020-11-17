@@ -34,12 +34,7 @@ const About = () => {
           </span>
         </div>
         <div>
-        <button
-          type="button"
-          className="btn btn-info"
-          >
-          DONATE NOW
-        </button>
+        <a href="https://www.gofundme.com/f/justice-for-dreasjon-sean-reed?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all" class="btn btn-info" role="button">DONATE NOW</a>
       </div>
       </div>
       <h3>Our Partners</h3>
