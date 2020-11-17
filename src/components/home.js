@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo1 from "./Dreaday1.jpg";
 import Header from './header';
-import Button from './button';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
   state = {};
@@ -19,12 +19,11 @@ class Home extends Component {
             <h4>Dreasjon Reed</h4>
 
             <div>
-              <a href="https://www.gofundme.com/f/justice-for-dreasjon-sean-reed?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all" class="btn btn-info" role="button">SHOW YOUR SUPPPORT</a>
+              <Link to="/about" className="btn btn-info">SHOW YOUR SUPPORT</Link>
             </div>
+
             
 
-
-           
         
          {/*  <footer className="footer">
             <div>
